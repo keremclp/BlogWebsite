@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+html{
+    font-family: 'Eczar', serif;
+}
+
+/*Header*/
+
+.logo{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+
+/*Navbar*/
+
+.navbar{
+    display: flex;
+    margin-top: 3rem;
+    background-color: #fff;
+    padding: 0 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li a{
+    padding: 2rem;
+    font-size: 1.5rem;
+}

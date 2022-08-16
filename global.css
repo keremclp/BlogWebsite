@@ -1,0 +1,17 @@
+.bg-dark-red {
+    background-color: #b71c1c !important;
+}
+
+
+
+
+
+
+/*Container for the blog*/
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+

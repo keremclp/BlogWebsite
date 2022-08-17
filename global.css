@@ -1,9 +1,24 @@
-.bg-dark-red {
-    background-color: #b71c1c !important;
+.heading-small{
+    font-size: 1.2rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+}
+
+.heading-big{
+    font-size: 1.75rem;
+}
+
+.text-align{
+    text-align: center;
 }
 
 
+.bg-dark-red {
+    background-color: rgb(224, 192, 169) !important;
 
+}
 
 
 

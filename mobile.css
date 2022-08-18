@@ -1,0 +1,32 @@
+.navbar{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+}
+#home{
+    border-bottom: 5px solid black;
+    position: relative;
+    background: rgb(253, 244, 237);
+}
+#home img{
+    position: absolute;
+}
+
+#home .introduce {
+
+    flex-direction: row;
+    margin-top: 17.5rem;
+    
+}
+
+#home .introduce h1 {
+    margin-left: 0;
+    font-style: italic;
+}
+
+#home .introduce p {
+    margin-left: 0;
+    font-size: smaller;
+    
+}

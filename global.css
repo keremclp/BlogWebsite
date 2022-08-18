@@ -10,18 +10,14 @@
     font-size: 1.75rem;
 }
 
-.text-align{
-    text-align: center;
-}
-
-
 .bg-dark-red {
     background-color: rgb(224, 192, 169) !important;
 
 }
 
-
-
+.text-align{
+    text-align: center;
+}
 /*Container for the blog*/
 
 .container{
@@ -29,4 +25,3 @@
     margin: 0 auto;
     padding: 0 20px;
 }
-

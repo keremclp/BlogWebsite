@@ -14,7 +14,10 @@ html{
 }
 
 /*Header*/
-
+.header{
+    background-color:rgb(253, 244, 237);
+    margin: 0;
+}
 .logo{
     font-size: 5rem;
     font-weight: bold;
@@ -23,11 +26,6 @@ html{
     justify-content: center;
     margin-top: 0.4px;
 }
-
-
-
-
-
 /*Navbar*/
 
 .navbar{
@@ -52,7 +50,7 @@ html{
 }
 
 .navbar ul li a:hover{
-    color: rgb(224, 192, 169);
+    color: rgb(253, 244, 237);
     background-color:rgb(47, 46, 46) ;
     border-radius: 15px;
 }
@@ -63,7 +61,9 @@ html{
     display: flex;
     align-items: flex-start;
     padding: 2rem;
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
+    background: rgb(253, 244, 237);
 }
 
 #home img{
@@ -72,23 +72,22 @@ html{
     border-radius: 50px ;
 }
 
-#home .text h1{
+#home .introduce h1{
     margin-left: 2rem;
     font-style: italic;
 }
 
-#home .text p{
+#home .introduce p{
     margin-left: 2rem;
 }
 
-#home .text p:nth-child(4){
+#home .introduce p:nth-child(4){
     font-size: 1.4rem;
     font-style: oblique;
 }
 
-#home .text p:nth-child(4) span{
+#home .introduce p:nth-child(4) span{
     font-weight: bold;
     font-size: 1.29rem;
     color: red;
 }
-

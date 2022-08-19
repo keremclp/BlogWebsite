@@ -1,16 +1,25 @@
 .navbar{
+    display: flex;
     flex-direction: column;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
     overflow: hidden;
 }
+
+.navbar ul li a{
+    padding:0.5rem;
+    font-size: 0.8rem;
+}
 #home{
-    border-bottom: 5px solid black;
+    border-bottom: 1px solid black;
     position: relative;
     background: rgb(253, 244, 237);
 }
 #home img{
     position: absolute;
+    
+    left: 0;
+    width: 23rem;
+    height: auto;
+    margin-left: 0.4rem;
 }
 
 #home .introduce {
@@ -29,4 +38,15 @@
     margin-left: 0;
     font-size: smaller;
     
+}
+
+
+.hobbies .hobbie{
+    flex-direction: column;
+}
+
+.hobbies .hobbie .photo{
+    flex-direction: column;
+    width: auto;
+    height: auto;
 }

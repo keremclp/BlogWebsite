@@ -11,13 +11,20 @@
 }
 
 .bg-dark-red {
-    background-color: rgb(224, 192, 169) !important;
+    background-color: rgb(253, 244, 237) !important;
 
 }
 
 .text-align{
     text-align: center;
 }
+.font-style{
+    font-style: italic;
+}
+.text-left{
+    text-align: left;
+}
+
 /*Container for the blog*/
 
 .container{

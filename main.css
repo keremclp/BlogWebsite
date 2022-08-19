@@ -24,17 +24,16 @@ html{
     color: #000;
     display: flex;
     justify-content: center;
-    margin-top: 0.4px;
+    padding-top: 0.4rem;
 }
 /*Navbar*/
 
 .navbar{
     display: flex;
     margin-top: 3rem;
-    margin-bottom: rem;
     color: rgb(47, 46, 46);
     padding: 0 0.75rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -45,9 +44,11 @@ html{
 }
 
 .navbar ul li a{
-    padding: 0 2rem;
-    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    font-size: 1.3rem;
+    opacity: 0.8;
 }
+
 
 .navbar ul li a:hover{
     color: rgb(253, 244, 237);
@@ -69,7 +70,7 @@ html{
 #home img{
     max-width: auto;
     height: auto;
-    border-radius: 50px ;
+    border-radius: 2rem ;
 }
 
 #home .introduce h1{
@@ -90,4 +91,61 @@ html{
     font-weight: bold;
     font-size: 1.29rem;
     color: red;
+}
+
+/*Hobbies*/
+
+#about{
+    padding: 1rem;
+    
+}
+
+#about h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.hobbies{
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.hobbies .hobbie{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.hobbies .hobbie:nth-child(1){
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.hobbies .hobbie .photo{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+} 
+
+.hobbies .hobbie .photo .own{
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 240px;
+    height: auto;
+}
+
+.hobbies .hobbie img{
+    width : auto;
+    border-radius: 15px;
+}
+
+.hobbies .hobbie p{
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
 }

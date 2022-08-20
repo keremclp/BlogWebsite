@@ -1,0 +1,21 @@
+#home{
+    flex-direction: column;
+    align-items: center;
+}
+#home img{
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+#home .introduce h1{
+    margin-top: 3rem;
+}
+.hobbies .hobbie{
+    flex-direction: column;
+}
+
+.hobbies .hobbie .photo{
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}

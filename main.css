@@ -11,6 +11,7 @@ a{
 
 html{
     font-family: 'Eczar', serif;
+    scroll-behavior: smooth;
 }
 
 /*Header*/
@@ -18,19 +19,41 @@ html{
     background-color:rgb(253, 244, 237);
     margin: 0;
 }
-.logo{
+.welcome{
     font-size: 5rem;
     font-weight: bold;
     color: #000;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 0.4rem;
 }
+
+@keyframes welcome {
+      0% {
+        transform: scale(0.1);
+        opacity: 0;
+      }
+      60% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+      }
+}
+div {
+    animation-duration: 2s;
+    animation-name: welcome;
+}
+div {
+    animation: welcome 2s;
+  }
 /*Navbar*/
 
 .navbar{
     display: flex;
-    margin-top: 3rem;
+    margin-top: 2rem;
     color: rgb(47, 46, 46);
     padding: 0 0.75rem;
     justify-content: center;
@@ -55,6 +78,8 @@ html{
     background-color:rgb(47, 46, 46) ;
     border-radius: 15px;
 }
+
+
 
 /*Home*/
 
@@ -149,7 +174,8 @@ html{
     margin-left: 1.5rem;
     font-size: 1.3rem;
 }
-
+ 
+/*Footer*/
 #contact ul{
     display: flex;
     justify-content: center;

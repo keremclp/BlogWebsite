@@ -1,12 +1,19 @@
+
+.welcome{
+    font-size: 0.8rem;
+}
+
 .navbar{
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    margin-top: 0;
 }
 
 .navbar ul li a{
     padding:0.5rem;
     font-size: 0.8rem;
+    
 }
 
 /*Home*/

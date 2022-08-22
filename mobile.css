@@ -33,13 +33,12 @@
 }
 
 #home .introduce {
-
     flex-direction: row;
     margin-top: 17.5rem;
-    
 }
 
 #home .introduce h1 {
+    margin-top: 0;
     margin-left: 0;
     font-style: italic;
 }
@@ -55,6 +54,13 @@
     flex-direction: column;
 }
 
+.hobbies .hobbie img{
+    margin-bottom: 1rem;
+}
+
+.hobbies .hobbie:nth-child(3){
+    flex-direction: column;
+}
 .hobbies .hobbie .photo{
     flex-direction: column;
     width: auto;

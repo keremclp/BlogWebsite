@@ -182,7 +182,18 @@ div {
     margin-left: 1.5rem;
     font-size: 1.3rem;
 }
- 
+.hobbies .hobbie:nth-child(2) p{
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.hobbies .hobbie:nth-child(2) .here{
+    font-size: 1.2rem;
+    color: rgb(253, 244, 237);
+    background-color:rgb(47, 46, 46) ;
+    border-radius: 10px;
+    padding: 0 0.7rem ;  
+}
 /*Footer*/
 #contact ul{
     display: flex;
